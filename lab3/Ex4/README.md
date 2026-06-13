@@ -9,3 +9,11 @@ Lembre-se:
   - um proxy possui a mesma interface que o seu objeto base. 
 Os comentários no código são essenciais para indicar: quem é seu objeto base? Quem é 
 seu cliente? Quem é seu proxy? 
+
+
+Problema Proposto:
+Imagine um sistema de câmeras de segurança.
+O objeto base é a CameraReal, que conecta ao dispositivo e transmite vídeo.
+O proxy é a CameraProxy, que controla o acesso à câmera real, verificando permissões de usuário antes de permitir a conexão.
+O cliente é quem tenta acessar a câmera.
+Assim, o Proxy funciona como um intermediário de segurança, garantindo que apenas usuários autorizados possam acessar a câmera.
