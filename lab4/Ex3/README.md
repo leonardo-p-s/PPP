@@ -18,5 +18,7 @@ cinemateca:
 ● Projetor (liga, desliga) 
 ● Player de Streaming (liga, desliga, play em um filme) 
 ● Telão (abaixa, sobe)
+
 a) Implemente o problema utilizando o padrão de projeto Fachada.
+
 b) Proponha e implemente um método em sua fachada chamado fimDoFilme(). 
